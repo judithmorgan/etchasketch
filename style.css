@@ -1,11 +1,11 @@
 body {
-    background-color:beige;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
-    height:100vh;
+    height: 100vh;
     font-size: 16px;
 }
 
@@ -14,10 +14,10 @@ button {
 }
 
 #container {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
@@ -29,24 +29,41 @@ button {
     height: 500px;
 }
 
+
+.etchDiv {
+    border: solid 2px;
+    border-color: rgb(202, 144, 125);
+    width: 100%;
+    height: 100%;
+}
+
+.etchDivOver {
+    background-color: rgb(234, 202, 202);
+}
+
+.etchDivStart {
+    background-color: white;
+}
+
+
 footer {
     padding-bottom: 2em;
-    font-size:1.5em;
+    font-size: 1.5em;
 }
 
 
 form {
-    display:flex;
-    align-items:center;
-    margin-bottom:.75em;
+    display: flex;
+    align-items: center;
+    margin-bottom: .75em;
 }
 
 header {
     padding-top: .75em;
-    font-size:4em;
+    font-size: 4em;
 }
 
 p {
     margin: .5em;
-    font-size:1.2em;
+    font-size: 1.2em;
 }
