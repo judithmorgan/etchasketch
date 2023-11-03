@@ -12,6 +12,11 @@ numBox.addEventListener('change', (event) => {
     createGrid(event.target.value)
 });
 
+resetButton.addEventListener('click', (event) => {
+    resetColor(event);
+})
+
+
 let createGrid = sideNum => {
     if (etchChildren.length > 0) {
         etch.replaceChildren()
@@ -49,3 +54,5 @@ let resetColor = event => {
         }
     }
 }
+
+
