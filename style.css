@@ -8,3 +8,45 @@ body {
     height:100vh;
     font-size: 16px;
 }
+
+button {
+    font-size: 1em;
+}
+
+#container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+
+
+#etchContainer {
+    display: grid;
+    width: 960px;
+    background-color: whitesmoke;
+    height: 500px;
+}
+
+footer {
+    padding-bottom: 2em;
+    font-size:1.5em;
+}
+
+
+form {
+    display:flex;
+    align-items:center;
+    margin-bottom:.75em;
+}
+
+header {
+    padding-top: .75em;
+    font-size:4em;
+}
+
+p {
+    margin: .5em;
+    font-size:1.2em;
+}
